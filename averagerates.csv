@@ -1,0 +1,51 @@
+﻿states,incidence_rates,mortality_rates,nohealthcare_rates
+Alabama,0.4038,0.1243,0.151
+Alaska,0.1168,0.0413,0.226
+Arizona,0.3362,0.1415,0.211
+Arkansas,0.42,0.1298,0.153
+California,0.378,0.1453,0.167
+Colorado,0.3777,0.1382,0.133
+Connecticut,0.3947,0.1167,0.099
+Delaware,0.4035,0.1008,0.058
+Florida,0.3888,0.142,0.23
+Georgia,0.4153,0.1432,0.201
+Hawaii,0.355,0.075,0.033
+Idaho,0.2118,0.0645,0.218
+Illinois,0.439,0.162,0.149
+Indiana,0.4125,0.1485,0.181
+Iowa,0.4013,0.107,0.085
+Kansas,0.4078,0.1623,0.137
+Kentucky,0.4315,0.1257,0.153
+Louisiana,0.4238,0.1303,0.19
+Maine,0.1262,0.0435,0.17
+Maryland,0.3453,0.1267,0.126
+Massachusetts,0.3425,0.1138,0.038
+Michigan,0.3843,0.1482,0.116
+Minnesota,0.4008,0.1067,0.08
+Mississippi,0.35,0.1377,0.226
+Missouri,0.391,0.1192,0.17
+Montana,0.2288,0.0435,0.177
+Nebraska,0.4443,0.1308,0.178
+Nevada,0.3615,0.1748,0.204
+New Hampshire,0.1257,0.0432,0.114
+New Jersey,0.4288,0.1478,0.127
+New Mexico,0.3318,0.0935,0.189
+New York,0.3993,0.1338,0.131
+North Carolina,0.356,0.1272,0.226
+North Dakota,0.1478,0.0458,0.109
+Ohio,0.3713,0.1415,0.108
+Oklahoma,0.4125,0.1647,0.268
+Oregon,0.3428,0.1088,0.132
+Pennsylvania,0.4095,0.152,0.115
+Rhode Island,0.3152,0.044,0.089
+South Carolina,0.3768,0.1113,0.205
+South Dakota,0.1377,0.0533,0.133
+Tennessee,0.3633,0.1275,0.147
+Texas,0.4132,0.1632,0.259
+Utah,0.3135,0.0732,0.161
+Virginia,0.1175,0.0505,0.151
+Vermont,0.346,0.1362,0.111
+Washington,0.3503,0.12,0.132
+West Virginia,0.312,0.1372,0.124
+Wisconsin,0.3927,0.1435,0.087
+Wyoming,0.233,0.0402,0.15
