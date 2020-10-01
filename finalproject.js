@@ -43,7 +43,27 @@ var drawMap= function(mapData,target,pathGen,projection, border, field)
             return "#ccc";
         }
     })
- 
+ .on("mouseenter" ,function(mapData, target, pathGen, projection, border, field)
+      {
+        
+      var xPos = d3.event.pageX;
+      var yPos = d3.event.pageY;
+      
+        d3.select("#tooltip")
+        .classed("hidden",false)
+        .style("top",yPos+"px")
+        .style("left",xPos+"px")
+        
+        d3.select("#mapData")
+        .text(mapData.properties.data["incidence_rates"]);
+        
+      })//tool tip off
+    .on("mouseleave",function()
+    {
+        d3.select("#tooltip")    
+        .classed("hidden",true);
+    })
+
 }
 
 
@@ -139,6 +159,10 @@ var pathGen= d3.geoPath()
     
     drawMap(mapData, target, pathGen, projection, "nohealthcare_rates", "mortality_rates")
 }
+
+
+
+
 
 //--------buttons----------
 		var drawMapbutton = function (mapData,target,pathGen,projection, border, field)
