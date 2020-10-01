@@ -162,8 +162,8 @@ var pathGen= d3.geoPath()
 			d3.select("#banner1")
 			.on("click", function()
 			   {
-                console.log("hi")
-				d3.selectAll("mapData")
+                console.log("hello")
+				
 				.remove()
 			drawMap(mapData, target, pathGen, projection, "nohealthcare_rates", "incidence_rates");
 				
@@ -174,8 +174,8 @@ var pathGen= d3.geoPath()
 			.on("click", function()
 			   {
                 console.log("hi")
-				d3.selectAll("mapData")
 				.remove()
+                
 			drawMap(mapData, target, pathGen, projection, "nohealthcare_rates", "mortality_rates")
 				
 			})
