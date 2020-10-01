@@ -8,10 +8,7 @@ var drawMap= function(mapData,target,pathGen,projection, border, field)
       var color2= d3.scaleQuantize()
     .range(["rgb(255,255,255)","rgb(217,217,217)","rgb(128,128,128)", "rgb(64,64,64)","rgb(0,0,0)"])
     .domain([.033, .268]);  
-    
-    /*var color3= d3.scaleQuantize()
-    .range(["rgb(247,230,255)","rgb(207,102,255)","rgb(139,0,204)", "rgb(105,0,153)"])
-    .domain([.1748,.0402]);*/
+   
     
     
     target.selectAll("path")
@@ -33,19 +30,6 @@ var drawMap= function(mapData,target,pathGen,projection, border, field)
     
     }
           )
-    /*.style("fill", function(d)
-           {  
-        if(d.properties.data)
-        {
-             var value= d.properties.data[field];
-           return color3(value); 
-        }
-        else
-        {
-            return "#ccc";
-        }
-    
-    })*/
           
     .style("stroke", function(d)
           {
