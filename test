@@ -1,0 +1,22 @@
+var name = function(message)
+
+{
+console.log(message)
+}
+
+
+name("hello")
+
+var name1 = function()
+{
+console.log("bye")
+}
+
+name1()
+
+var siesta = function()
+{
+console.log("hi")
+}
+
+siesta()
