@@ -3,7 +3,7 @@ var drawMap= function(mapData,target,pathGen,projection, border, field)
 {
     var color1= d3.scaleQuantize()
     .range(["rgb(204,230,255)","rgb(102,181,255)","rgb(0,92,179)", "rgb(0,40,77)"])
-    .domain([.1168,.4443]);
+    .domain([.0402,.4443]);
     
       var color2= d3.scaleQuantize()
     .range(["rgb(255,255,255)","rgb(217,217,217)","rgb(128,128,128)", "rgb(64,64,64)","rgb(0,0,0)"])
