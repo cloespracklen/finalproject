@@ -1,5 +1,5 @@
 //drawing map for incidence rates w/healthcare
-var drawMap= function(mapData,target,pathGen,projection, border, field)
+var drawMap= function(mapData,target,pathGen,projection, border, field, label)
 {
     var color1= d3.scaleQuantize()
     .range(["rgb(255,255,255)","rgb(230,247,255)","rgb(179,231,255)", "rgb(128,215,255)", "rgb(77,198,255)","rgb(26,182,255)","rgb(0,157,230)", "rgb(0,122,179)", "rgb(0,87,128)","rgb(0,52,77)", "rgb(0,0,0)"])
@@ -30,7 +30,7 @@ var drawMap= function(mapData,target,pathGen,projection, border, field)
     
     }
           )
-         .style("stroke-width", 3) 
+         .style("stroke-width", 2.75) 
     .style("stroke", function(d)
           {
        if(d.properties.data)
@@ -45,6 +45,9 @@ var drawMap= function(mapData,target,pathGen,projection, border, field)
             return "#ccc";
         }
     })
+    
+    
+    
  .on("mouseenter" ,function(mapData)
       {
         
@@ -60,6 +63,8 @@ var drawMap= function(mapData,target,pathGen,projection, border, field)
             .text(mapData.properties.data[border]);
         d3.select("#mapData")
         .text(mapData.properties.data[field]);
+        d3.select("#mapDatalabel")
+        .text(label);
         
       })//tool tip off
     .on("mouseleave",function()
@@ -149,9 +154,9 @@ var projection= d3.geoAlbersUsa()
 var pathGen= d3.geoPath()
 .projection(projection)
 
-        drawMap(mapData, target, pathGen, projection, "nohealthcare_rates", "incidence_rates");
+        drawMap(mapData, target, pathGen, projection, "nohealthcare_rates", "incidence_rates", "Incidence Rates:");
     
-    drawMap(mapData, target, pathGen, projection, "nohealthcare_rates", "mortality_rates")
+    drawMap(mapData, target, pathGen, projection, "nohealthcare_rates", "mortality_rates", "Mortality Rates:");
     
     drawMapbutton(mapData,target,pathGen,projection)
 }
@@ -169,7 +174,7 @@ var pathGen= d3.geoPath()
                 console.log("hello")
 				d3.selectAll("path")
 				.remove()
-			drawMap(mapData, target, pathGen, projection, "nohealthcare_rates", "incidence_rates");
+			drawMap(mapData, target, pathGen, projection, "nohealthcare_rates", "incidence_rates", "Incidence Rates:");
 				
 			})
         
@@ -181,7 +186,7 @@ var pathGen= d3.geoPath()
                 d3.selectAll("path")
 				.remove()
                 
-			drawMap(mapData, target, pathGen, projection, "nohealthcare_rates", "mortality_rates")
+			drawMap(mapData, target, pathGen, projection, "nohealthcare_rates", "mortality_rates", "Mortality Rates:");
 				
 			})
         }}

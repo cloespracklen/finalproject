@@ -7,16 +7,16 @@
     
     
     <body>
-        <h1> Colon Cancer Rates in the United States and how having Health Care makes a difference.</h1>
-        <h3 id="banner1"> Incidence Rates Per 100,000 with No Health Care Rates</h3>
-        <h3 id="banner2"> Mortality Rates Per 100,000 with No Health Care Rates</h3>
+        <h1> Colon Cancer Rates in the United States and how Health Care Coverage makes a difference.</h1>
+        <h3 id="banner1"> Incidence Rates Per 100,000 combined with No Health Care Rates</h3>
+        <h3 id="banner2"> Mortality Rates Per 100,000 combined with No Health Care Rates</h3>
         <svg id="graph">
             </svg>
         <div class="hidden" id="tooltip">
-        <div id="mapData"></div>
-        <div id="geoData"></div>
+        <div><span id= "mapDatalabel"></span><span id="mapData"></span></div>
+        <div><span> No Health Care Coverage:</span><span id="geoData"></span></div>
     </div>
-        <h4>Lowest to Highest Incidence/Mortality Rates Scale:</h4>
+        <h4>Percentage of incidence or mortality rates scale:</h4>
         <table id="scale1">
     <tr>
         <td class="color1"> .0402-.0727 </td>
@@ -32,7 +32,7 @@
         
     </tr>
     </table>
-        <h4> Lowest to Highest No Health Care Coverage Rates Scale:</h4>
+        <h4>Percentage of the population with no health care scale:</h4>
         <table>
         <tr>
             <td class="color12"> .0330-.0800</td>
