@@ -5,18 +5,44 @@
     </head>    
     <link href="finalproject.css" type="text/css" rel="stylesheet"/>
     
+    
     <body>
-        <h1> Map of the United States</h1>
-        <h3 id="banner1"> Incidence Rates with No Health Care Rates</h3>
-        <h3 id="banner2"> Mortality Rates with No Health Care Rates</h3>
+        <h1> Colon Cancer Rates in the United States and how having Health Care makes a difference.</h1>
+        <h3 id="banner1"> Incidence Rates Per 100,000 with No Health Care Rates</h3>
+        <h3 id="banner2"> Mortality Rates Per 100,000 with No Health Care Rates</h3>
         <svg id="graph">
-        
-            
-        </svg>
+            </svg>
         <div class="hidden" id="tooltip">
         <div id="mapData"></div>
         <div id="geoData"></div>
     </div>
+        <h4>Lowest to Highest Incidence/Mortality Rates Scale:</h4>
+        <table id="scale1">
+    <tr>
+        <td class="color1"> .0402-.0727 </td>
+        <td class="color2"> .0728-.1095 </td>
+        <td class="color3"> .1096-.1462 </td>
+        <td class="color4"> .1463-.1829 </td>
+        <td class="color5"> .1830-.2196 </td>
+        <td class="color6"> .2197-.2563</td>
+        <td class="color7"> .2564-.2930 </td>
+        <td class="color8"> .2931-.3664 </td>
+        <td class="color9"> .3665-.4031 </td>
+        <td class="color10"> .4032-.4443 </td>
+        
+    </tr>
+    </table>
+        <h4> Lowest to Highest No Health Care Coverage Rates Scale:</h4>
+        <table>
+        <tr>
+            <td class="color12"> .0330-.0800</td>
+        <td class="color13"> .0801-.1191 </td>
+        <td class="color14"> .1192-.1582 </td>
+        <td class="color15"> .1583-.1973 </td>
+        <td class="color16"> .1974-.2680 </td>
+            </tr></table>
+        
+<h6><a href="workscited.html"> References</a></h6>
 <script src="https://d3js.org/d3.v5.min.js"></script>
     <script src="finalproject.js"></script>
     </body>

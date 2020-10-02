@@ -1,6 +1,6 @@
 body
 {
-    background-color: lightcyan
+    background-color: lightgoldenrodyellow
 }
 h1
 {
@@ -23,4 +23,78 @@ h1
     box-shadow: 4px 4px 10px rgba(0,0,0,0.4);
     pointer-events:none;
 }
-
+.color1
+{
+    background-color: white
+}
+.color2
+{
+    background-color: #e6f7ff
+}
+.color3
+{
+    background-color: #b3e7ff
+}
+.color4
+{
+    background-color: #80d7ff
+}
+.color5
+{
+    background-color: #4dc6ff
+}
+.color6
+{
+    background-color: #1ab6ff
+}
+.color7
+{
+    background-color: #009de6;
+    color:white
+}
+.color8
+{
+    background-color: #007ab3;
+    color:white
+}
+.color9
+{
+    background-color: #005780;
+        color:white
+}
+.color10
+{
+    background-color: #00344d;
+    color:white
+        
+}
+.color12
+{
+    background-color: white;
+    color:black
+        
+}
+.color13
+{
+    background-color: #d9d9d9;
+    color:black
+        
+}
+.color14
+{
+    background-color: #808080;
+    color:white
+        
+}
+.color15
+{
+    background-color: #404040;
+    color:white
+        
+}
+.color16
+{
+    background-color: black;
+    color:white
+        
+}

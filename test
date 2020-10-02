@@ -20,3 +20,10 @@ console.log("hi")
 }
 
 siesta()
+
+
+var xPos = d3.event.pageX;
+      var yPos = d3.event.pageY;
+      
+      var xPos = d3.event.pageX;
+      var yPos = d3.event.pageY;
