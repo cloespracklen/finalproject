@@ -70,7 +70,12 @@ var drawMap= function(mapData,target,pathGen,projection, border, field, label, c
                d3.select("#mapData")
         .text(mapData.properties.data[field]);
            }
-           d3.select("#geoData")
+        
+        else{
+            d3.select("#mapData")
+        .text("");
+        }
+        d3.select("#geoData")
             .text(mapData.properties.data[border]);
         
         d3.select("#mapDatalabel")
@@ -175,9 +180,9 @@ var projection= d3.geoAlbersUsa()
 var pathGen= d3.geoPath()
 .projection(projection)
 
-        drawMap(mapData, target, pathGen, projection, "nohealthcare_rates", "incidence_rates", "Incidence Rates:", color1, color2 );
+       // drawMap(mapData, target, pathGen, projection, "nohealthcare_rates", "incidence_rates", "Incidence Rates:", color1, color2 );
     
-    drawMap(mapData, target, pathGen, projection, "nohealthcare_rates", "mortality_rates", "Mortality Rates:", color1, color2);
+   // drawMap(mapData, target, pathGen, projection, "nohealthcare_rates", "mortality_rates", "Mortality Rates:", color1, color2);
     
       drawMap(mapData, target, pathGen, projection, "nohealthcare_rates", "nohealthcare_rates","", color2, color3);
 
