@@ -179,7 +179,7 @@ var pathGen= d3.geoPath()
     
     drawMap(mapData, target, pathGen, projection, "nohealthcare_rates", "mortality_rates", "Mortality Rates:", color1, color2);
     
-      drawMap(mapData, target, pathGen, projection, "nohealthcare_rates", "nohealthcare_rates","", color2, color3);
+      
 
     drawMapbutton(mapData,target,pathGen,projection,color1,color2,color3)
 }
@@ -212,16 +212,7 @@ var pathGen= d3.geoPath()
 			drawMap(mapData, target, pathGen, projection, "nohealthcare_rates", "mortality_rates", "Mortality Rates:", color1,color2);
 				
 			})
-            d3.select("#banner3")
-			.on("click", function()
-			   {
-                console.log("howdy")
-                d3.selectAll("path")
-				.remove()
-                
-			drawMap(mapData, target, pathGen, projection, "nohealthcare_rates", "nohealthcare_rates","", color2, color3);
-				
-			})
+            
         }}
 				
 		

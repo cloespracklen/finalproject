@@ -1,12 +1,61 @@
 body
 {
-    background-color: lightpink
+    background-color:#999999
 }
-.table1
+.mainTitle
 {
-    background-color:lightblue;
-    border-width: 3px;
-    border-color: darkblue;
+    font-size: 40;
+    text-align: center;
+    color:white;
+    border: solid;
+    padding: 10;
+    width:1000;
+    position: relative;
+    left: 160;
+    background-color: 262626;
+    
 }
-.table2
-{background-color: aquamarine}
+div.linkbackhome
+{
+    position: relative;
+    border: solid;
+    width:195;
+    border-color: #e6e6e6;
+    text-align: center;
+    background-color: #bfbfbf;
+    left:550px;
+    border-radius:10px;
+    
+}
+div.firstsource
+{
+    font-size: 20px;
+    border-width:thick;
+    border-color: #e6e6e6;
+    border: solid;
+    padding: 8px;
+    width: 750;
+    margin: 30px;
+    text-align: center;
+    position: relative;
+    left:250;
+    background-color: #e6e6e6;
+    
+  
+}
+div.secondsource
+{
+    font-size: 20px;
+    border-width:3;
+    border-color: darkblue;
+    border: solid;
+    padding: 8px;
+    width: 750;
+    margin: 30px;
+    text-align: center;
+    position: relative;
+    left: 250px;
+    background-color:e6e6e6
+    
+}
+}

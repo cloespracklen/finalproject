@@ -11,7 +11,7 @@ border-width: 3;
 div.mapofus
 {
     position: relative;
-    top:-85px;
+    top:-190px;
     left:-50px;
 }
 div.linkbackhome
@@ -25,7 +25,7 @@ border-width: 5;
     text-align: center;
     position: relative;
     left:644;
-        top: 80px;
+        top: 200px;
             border-radius: 3px;
     color:black;
     
@@ -121,9 +121,9 @@ h1
 
 div.button1
 {
-    font-size: 12px;
+    font-size: 10px;
     background-color: #bfbfbf;
-    width: 500;
+    width: 200;
     border: outset;
     border-width: 5px;
     border-color: #b3b3b3;
@@ -133,16 +133,16 @@ div.button1
     overflow:auto;
     float:clear;
     clear:right;
-    top: 88px;
+    top: 150px;
     left: 100px;
     border-radius: 15px;
 }
 div.button2
 {
     border-radius: 15px;
-    font-size: 12px;
+    font-size: 10px;
    background-color: #bfbfbf;
-    width: 500;
+    width: 200;
     border: outset;
     border-width: 5;
     border-color: #b3b3b3;
@@ -151,8 +151,8 @@ div.button2
     margin: 5px;
     float: right;
     clear:left;
-    top: 30px;
-    left: 0px;
+    top: 80px;
+    left: -830px;
 }
 div.button3
 {
@@ -177,11 +177,23 @@ div.legend
 font-family: sans-serif;
     position: relative;
     border-color: black;
-        top:100px;
+        top:160px;
     left:-70px;
     font-size: 14px;
     border-width: 4px;
         border: solid;
     padding: 3;
     background-color: #e6e6e6;
+}
+div.paragraph
+{
+    color:white;
+    width: 400px;
+    position: relative;
+    left:918;
+    top:100;
+    text-align:center;
+    border:solid;
+    color:#e6e6e6;
+        
 }
