@@ -156,7 +156,7 @@ var target= d3.select("svg")
 .attr("transform","translate("+margins.left+ ","+ margins.top+")");
 
 var color1= d3.scaleQuantize()
-    .range(["rgb(255,255,255)","rgb(230,247,255)","rgb(179,231,255)", "rgb(128,215,255)", "rgb(77,198,255)","rgb(26,182,255)","rgb(0,157,230)", "rgb(0,122,179)", "rgb(0,87,128)","rgb(0,52,77)", "rgb(0,0,0)"])
+    .range(["rgb(255,255,255)","rgb(230,247,255)","rgb(179,231,255)", "rgb(128,215,255)", "rgb(77,198,255)","rgb(26,182,255)","rgb(0,157,230)", "rgb(0,122,179)", "rgb(0,87,128)","rgb(0,52,77)"])
     .domain([.0402,.4443]);
     
  var color2= d3.scaleQuantize()
