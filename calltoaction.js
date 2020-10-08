@@ -177,7 +177,7 @@ var pathGen= d3.geoPath()
 
         drawMap(mapData, target, pathGen, projection, "nohealthcare_rates", "incidence_rates", "Incidence Rates:", color1, color2 );
     
-    drawMap(mapData, target, pathGen, projection, "nohealthcare_rates", "mortality_rates", "Mortality Rates:", color1, color2);
+   // drawMap(mapData, target, pathGen, projection, "nohealthcare_rates", "mortality_rates", "Mortality Rates:", color1, color2);
     
       
 

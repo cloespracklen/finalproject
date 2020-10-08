@@ -32,7 +32,8 @@ border-width: 5;
 }
 body
 {
-    background-color: #262626
+    background-color: #262626;
+    
 }
 h1
 {
@@ -151,7 +152,7 @@ div.button2
     margin: 5px;
     float: right;
     clear:left;
-    top: 600px;
+    top: 80px;
     left: -830px;
 }
 div.button3
